@@ -3,11 +3,21 @@
     height: 100%;
     color: whitesmoke;
     font-size: 250%;
-    background: url(img1.jpg) no-repeat center center fixed;
+/*     background: url(img1.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
+    background-size: cover; */
+    background-image:url(img1.jpg);
+-webkit-background-size: 100%; 
+-moz-background-size: 100%; 
+-o-background-size: 100%; 
+background-size: 100%; 
+-webkit-background-size: cover; 
+-moz-background-size: cover; 
+-o-background-size: cover; 
+background-size: cover;
+
     display: flex;
     justify-content: center;
     align-items: center;
